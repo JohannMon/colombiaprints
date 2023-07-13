@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>SAN ANDRÉS CORAL</h1>
+        <h1 id="titulo-pagina">SAN ANDRÉS CORAL</h1>
         <div class="camisa">
             <img src="../img/Camiseta11.jpg" alt="San andrés coral" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un diseño de corales y peces tropicales, evocando la belleza submarina de San Andrés.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p> Sumérgete en las maravillas submarinas de San Andrés con esta camiseta. Su diseño está adornado con corales y peces tropicales, evocando la belleza y la diversidad de los arrecifes de coral que rodean la isla. San Andrés es un paraíso para los amantes del buceo y el snorkel, y esta camiseta te invita a llevar contigo la magia de esos fondos marinos. Confeccionada con algodón suave y duradero, esta prenda te ofrece comodidad y estilo a la vez. ¡Lleva contigo la vibrante vida marina de San Andrés con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

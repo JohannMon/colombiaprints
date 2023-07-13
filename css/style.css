@@ -214,6 +214,11 @@ h3{
 }
 
 /**Producto**/
+.camisa p{
+    font-size: 1.8rem;
+    text-align: justify;
+    font-family: var(--fuentePrincipal);
+}
 @media (min-width: 768px) {
     .camisa{
         display: grid;
@@ -229,7 +234,7 @@ h3{
 .formulario__campo{
     border: 1rem solid var(--primarioOscuro);
     background-color: transparent;
-    color: var(--blanco);
+    color: var(--negro);
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;

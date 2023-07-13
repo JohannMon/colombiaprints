@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>BOGOTÁ NOCTURNA</h1>
+        <h1 id="titulo-pagina">BOGOTÁ NOCTURNA</h1>
         <div class="camisa">
             <img src="../img/Camiseta14.jpg" alt="Bogotá Nocturna" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un estampado de la ciudad de Bogotá de noche, resaltando sus icónicos edificios iluminados.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Adéntrate en la vida nocturna de la vibrante capital colombiana con esta camiseta. Su estampado muestra la silueta de los edificios icónicos de Bogotá iluminados por la noche, capturando la energía y la diversidad cultural de la ciudad. Desde la majestuosidad del Cerro de Monserrate hasta los imponentes rascacielos del centro financiero, Bogotá es un lienzo de luces y contrastes. Esta camiseta, confeccionada con tejidos de alta calidad, es un homenaje a la ciudad y una declaración de estilo urbano. ¡Lleva contigo el espíritu cosmopolita de Bogotá con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad"  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

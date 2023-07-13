@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>SANTA MARTA PLAYA</h1>
+        <h1 id="titulo-pagina">SANTA MARTA PLAYA</h1>
         <div class="camisa">
             <img src="../img/Camiseta10.jpg" alt="Santa Marta Playa" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un diseño que captura la esencia de las playas de Santa Marta, con palmeras y aguas turquesas.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Sumérgete en la tranquilidad y las playas paradisíacas de Santa Marta con esta camiseta. Su diseño captura la esencia del Caribe colombiano, con palmeras, aguas cristalinas y una brisa cálida. Santa Marta es conocida por sus hermosas playas, como El Rodadero y Taganga, que atraen a turistas de todo el mundo. Esta camiseta, confeccionada con tejidos suaves y transpirables, te brinda comodidad y estilo mientras te transporta a las arenas blancas y las aguas turquesas de Santa Marta. ¡Lleva contigo la serenidad y la belleza de las playas de Santa Marta con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

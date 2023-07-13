@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>AMAZONAS SELVA</h1>
+        <h1 id="titulo-pagina">AMAZONAS SELVA</h1>
         <div class="camisa">
             <img src="../img/Camiseta7.jpg" alt="Amazonas Selva" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un diseño que muestra la riqueza y diversidad de la selva amazónica en el departamento de Amazonas.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Sumérgete en la exuberante selva amazónica del departamento de Amazonas con esta camiseta. Su diseño está inspirado en la riqueza y la diversidad de flora y fauna de la región. Desde las imponentes ceibas hasta los coloridos loros y las enigmáticas anacondas, la selva amazónica es un ecosistema fascinante y misterioso. Esta camiseta, confeccionada con tejidos suaves y transpirables, te ofrece comodidad y estilo mientras te conecta con la majestuosidad y la biodiversidad del Amazonas colombiano. ¡Lleva contigo la magia y la fuerza de la selva amazónica con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

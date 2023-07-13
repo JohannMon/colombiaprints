@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>CAFÉ Y VOLCANES</h1>
+        <h1 id="titulo-pagina">CAFÉ Y VOLCANES</h1>
         <div class="camisa">
             <img src="../img/Camiseta6.jpg" alt="Café y Volcanes" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un diseño que combina el café y los volcanes, representando la región cafetera y los Nevados de Manizales.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Sumérgete en la cultura cafetera y la majestuosidad de los volcanes de Manizales con esta camiseta. Su diseño combina el café, símbolo icónico de Colombia, con los imponentes volcanes que rodean la ciudad. Manizales, situada en la región cafetera, es conocida por su producción de café de alta calidad y su ubicación entre los volcanes nevados. Esta camiseta, confeccionada con materiales suaves y resistentes, te brinda comodidad y estilo mientras te conecta con la pasión y la belleza natural de Manizales. ¡Lleva contigo la esencia del café y la majestuosidad volcánica de Manizales con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

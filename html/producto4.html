@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>SANTANDER AVENTURA</h1>
+        <h1 id="titulo-pagina">SANTANDER AVENTURA</h1>
         <div class="camisa">
             <img src="../img/Camiseta5.jpg" alt="Santander Aventura" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un estampado que representa las actividades de aventura en el departamento de Santander, como el parapente y el rafting.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Si eres un amante de la aventura, esta camiseta es para ti. Su estampado representa las emocionantes actividades al aire libre que se pueden disfrutar en el departamento de Santander, como el parapente, el rafting y el senderismo. Desde las majestuosas montañas de la Mesa de los Santos hasta los cañones del Chicamocha, Santander es un paraíso para los amantes de la adrenalina y la naturaleza. Confeccionada con materiales de alta calidad, esta camiseta te ofrece comodidad y estilo mientras te inspira a explorar nuevos horizontes. ¡Lleva contigo la emoción y la belleza de Santander con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

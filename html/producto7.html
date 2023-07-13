@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>BARRANQUILLA CARNAVAL</h1>
+        <h1 id="titulo-pagina">BARRANQUILLA CARNAVAL</h1>
         <div class="camisa">
             <img src="../img/Camiseta8.jpg" alt="Barranquilla Carnaval" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un estampado festivo inspirado en el colorido Carnaval de Barranquilla, una de las festividades más importantes de Colombia.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Celebra la alegría y el colorido del famoso Carnaval de Barranquilla con esta camiseta. Su estampado festivo y vibrante captura la esencia de esta festividad reconocida a nivel mundial. El Carnaval de Barranquilla es una explosión de música, danza y tradición que une a personas de todas las edades y culturas. Esta camiseta, confeccionada con tejidos suaves y duraderos, te brinda comodidad y estilo mientras te sumerges en el espíritu festivo de Barranquilla. ¡Lleva contigo la energía y el colorido del Carnaval con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

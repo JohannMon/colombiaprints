@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>CARTAGENA</h1>
+        <h1 id="titulo-pagina">CARTAGENA</h1>
         <div class="camisa">
             <img src="../img/Camiseta13.jpg" alt="CARTAGENA" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con el icónico skyline de Cartagena en tonos vibrantes.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Disfruta de la esencia mágica de Cartagena con esta camiseta. Su estampado presenta el icónico skyline de la ciudad amurallada, evocando las calles empedradas, los balcones coloridos y la arquitectura colonial. Esta prenda te transportará a los rincones encantadores y llenos de historia de esta joya caribeña. Confeccionada con materiales de alta calidad, esta camiseta combina estilo y comodidad para que puedas lucir tu amor por Cartagena con orgullo. ¡Haz que tu outfit brille con la magia de Cartagena!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

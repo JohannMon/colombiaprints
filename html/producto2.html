@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>CALI SALSA</h1>
+        <h1 id="titulo-pagina">CALI SALSA</h1>
         <div class="camisa">
             <img src="../img/Camiseta3.jpg" alt="Cali Salsa" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un diseño que celebra la energía y el ritmo de la salsa, representando a Cali, la capital de la salsa en Colombia.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p> ¡Ponte en movimiento y siente el ritmo de la salsa con esta camiseta! Inspirada en la capital mundial de la salsa, Cali, esta prenda te conecta con la pasión y el sabor del baile. El estampado vibrante y dinámico evoca la energía y la alegría de las pistas de baile, mientras que los colores brillantes te envuelven en un aura festiva. Confeccionada con tejidos suaves y elásticos, esta camiseta te brinda comodidad y estilo para que puedas expresar tu amor por la música y el baile. ¡Lleva contigo el ritmo y la pasión de Cali con esta prenda llena de vida!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

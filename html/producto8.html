@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>MEDELLÍN EN FLORES</h1>
+        <h1 id="titulo-pagina">MEDELLÍN EN FLORES</h1>
         <div class="camisa">
             <img src="../img/Camiseta9.jpg" alt="Medellín en flores" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta con un diseño de flores coloridas inspiradas en los jardines de Medellín.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Celebra la belleza natural y la alegría de Medellín con esta camiseta. Su estampado está adornado con hermosas flores que representan la riqueza botánica y la primavera eterna de la ciudad de la eterna primavera. Desde los jardines del Parque Explora hasta los coloridos murales de Comuna 13, Medellín está llena de vida y energía. Esta camiseta captura esa vitalidad en cada detalle, confeccionada con tejidos suaves y resistentes para brindarte la máxima comodidad. ¡Lleva contigo la frescura y el encanto de Medellín con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>

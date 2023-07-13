@@ -27,19 +27,21 @@
     </nav>
 
     <main class="contenedor">
-        <h1>POPAYÁN BLANCA</h1>
+        <h1 id="titulo-pagina">POPAYÁN BLANCA</h1>
         <div class="camisa">
             <img src="../img/Camiseta2.jpg" alt="Popayán Blanca" class="camisa__imagen">
             <div class="camisa__contenido">
-                <p>Camiseta blanca con un diseño minimalista inspirado en las fachadas blancas y las iglesias de Popayán.</p>
-                <form class="formulario">
-                    <select class="formulario__campo">
-                        <option disabled selected>-- Selecciona Talla --</option>
-                        <option value="">Chica</option>
-                        <option value="">Mediana</option>
-                        <option value="">Grande</option>
+                <p>Sumérgete en la historia y la arquitectura colonial de Popayán con esta camiseta blanca y minimalista. Su diseño refleja las fachadas blancas y las iglesias emblemáticas de la ciudad. Popayán, conocida como la "Ciudad Blanca", es un tesoro histórico y cultural en Colombia. Esta camiseta, confeccionada con tejidos suaves y transpirables, te brinda comodidad y estilo mientras te conecta con la elegancia y la tradición de Popayán. ¡Lleva contigo el encanto colonial de Popayán con esta prenda única!</p>
+                <form id="formulario-compra" class="formulario">
+                    <select id="seleccion-talla" class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option value="XS">TALLA XS</option>
+                        <option value="S">TALLA S</option>
+                        <option value="M">TALLA M</option>
+                        <option value="L">TALLA L</option>
+                        <option value="XL">TALLA XL</option>
                     </select>
-                    <input  class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
+                    <input id="input-cantidad" class="formulario__campo" type="number"  placeholder="Cantidad" min="1">
                     <input  class="formulario__submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
@@ -49,5 +51,7 @@
     <footer class="footer">
         <p class="footer__texto">Colombia Prints - Todos los derechos Reservados 2023</p>
     </footer>
+
+    <script src="../js/whatsapp.js"></script>
 </body>
 </html>
