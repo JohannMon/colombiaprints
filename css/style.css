@@ -179,6 +179,25 @@ h3{
     border-radius: 10%;
 }
 
+.texto_gorras {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px; /* Espacio entre la imagen y el texto */
+    align-items: center; /* Centrar verticalmente los elementos */
+    text-align: justify;
+}
+
+.texto_gorras p{
+    font-size: 2rem;
+    font-family: var(--fuentePrincipal);
+}
+
+.texto__imagen {
+    width: 100%;
+    border-radius: 10%;
+}
+
+
 @media (max-width: 768px) {
     .texto {
         grid-template-columns: 1fr; /* Una columna para pantallas más pequeñas */
