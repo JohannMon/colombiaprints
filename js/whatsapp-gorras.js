@@ -7,7 +7,7 @@ document.getElementById("formulario-compra").addEventListener("submit", function
     var cantidadSeleccionada = document.getElementById("input-cantidad").value;
 
     // Crear el mensaje con los valores seleccionados
-    var mensaje = "¡Hola! Estoy interesado/a en la siguiente camisa:" + "\n";
+    var mensaje = "¡Hola! Estoy interesado/a en la siguiente gorra:" + "\n";
     mensaje += "Nombre: '"  + tituloPagina + "'\n";
     mensaje += "Talla seleccionada: " + tallaSeleccionada + "\n";
     mensaje += "Cantidad: " + cantidadSeleccionada;
