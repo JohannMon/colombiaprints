@@ -7,7 +7,7 @@ document.getElementById("formulario-compra").addEventListener("submit", function
 
     // Crear el mensaje con los valores seleccionados
     var mensaje = "¡Hola! Estoy interesado/a en la siguiente artesania:" + "\n";
-    mensaje += "Nombre: '"  + tituloPagina + "'\n";
+    mensaje += "'"  + tituloPagina + "'\n";
     mensaje += "Cantidad: " + cantidadSeleccionada;
 
     // Reemplaza el número de WhatsApp con el número real al que deseas enviar el mensaje
